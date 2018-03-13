@@ -33,7 +33,7 @@ apis:
   tags: Lists
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/lists/master/_listings/akamai/network-list-v1-network-lists-networklistid-status-env-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/lists/master/_listings/akamai/network-list-v1-network-lists-networklistid-history-sync%2dpoint,extended-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
