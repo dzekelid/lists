@@ -41,7 +41,7 @@ apis:
   tags: Lists
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/lists/master/_listings/twilio/accounts-accountsid-sip-ipaccesscontrollists-ipaccesscontrollistsid-ipaddresses-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/lists/master/_listings/twilio/accounts-accountsid-sip-ipaccesscontrollists-ipaccesscontrollistsid-delete.md
 x-common:
 - type: x-net-library
   url: https://www.twilio.com/docs/csharp/install
