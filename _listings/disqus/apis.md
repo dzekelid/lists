@@ -31,7 +31,7 @@ apis:
   tags: Lists
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/lists/master/_listings/disqus/forums-listmostactiveusers-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/lists/master/_listings/disqus/forums-listmostlikedusers-json-get.md
 x-common:
 - type: x-base
   url: https://disqus.com/api/
