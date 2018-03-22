@@ -33,7 +33,7 @@ apis:
   tags: Lists
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/akamai/network-list-v1-network-lists-networklistid-element-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/akamai/network-list-v1-network-lists-networklistid-element-element-delete.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
