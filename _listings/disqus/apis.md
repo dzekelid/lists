@@ -17,9 +17,9 @@ tags:
 - Media
 - Content
 - Comments
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/lists/master/_listings/disqus/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/disqus/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Disqus
@@ -31,7 +31,7 @@ apis:
   tags: Lists
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/lists/master/_listings/disqus/whitelists-remove-json-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/disqus/blacklists-backfillcounters-json-post.md
 x-common:
 - type: x-base
   url: https://disqus.com/api/
