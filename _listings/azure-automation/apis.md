@@ -13,9 +13,9 @@ tags:
 - Orchestration
 - Microsoft
 - Automation
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/lists/master/_listings/azure-automation/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/azure-automation/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Azure Automation API
@@ -27,7 +27,7 @@ apis:
   tags: Lists
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/lists/master/_listings/azure-automation/subscriptions-subscriptionid-providers-microsoft-automation-automationaccounts-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/azure-automation/subscriptions-subscriptionid-providers-microsoft-automation-automationaccounts-get.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/automation/
