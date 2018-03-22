@@ -26,7 +26,7 @@ apis:
   tags: Lists
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/youtube/playlists-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/youtube/playlists-get.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
