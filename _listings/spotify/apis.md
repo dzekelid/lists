@@ -34,7 +34,7 @@ apis:
   tags: Lists
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/spotify/browse-categories-category-id-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/spotify/browse-categories-category-id-playlists-get.md
 x-common:
 - type: x-apijson--authoritative
   url: https://developer.spotify.com/wp-content/uploads/apis.json
