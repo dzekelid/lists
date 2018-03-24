@@ -25,7 +25,7 @@ apis:
   tags: Lists
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/google-tasks/lists-tasklist-clear-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/google-tasks/lists-tasklist-tasks-get.md
 x-common:
 - type: x-code
   url: https://developers.google.com/google-apps/tasks/setup
