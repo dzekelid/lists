@@ -41,7 +41,7 @@ apis:
   tags: Lists
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twilio/accounts-accountsid-sip-credentiallists-clsid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twilio/accounts-accountsid-sip-credentiallists-clsid-post.md
 x-common:
 - type: x-net-library
   url: https://www.twilio.com/docs/csharp/install
