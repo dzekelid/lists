@@ -1,9 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Disqus
-  description: Welcome to the Disqus Web API. The API enables developers to communicate
-    with Disqus data from within their own applications.
+  title: Disqus Forums ListFollowers
+  description: Forums ListFollowers
   termsOfService: https://docs.disqus.com/kb/terms-and-policies/
   version: 1.0.0
 host: disqus.com
@@ -15,10 +14,8 @@ produces:
 consumes:
 - application/json
 paths:
-  ? |2-
-
-        /forums/listFollowers.json
-  : get:
+  /forums/listFollowers.json:
+    get:
       summary: Forums ListFollowers
       description: "\n     Forums ListFollowers "
       operationId: forums-listfollowers
@@ -52,16 +49,16 @@ paths:
 definitions: []
 x-collection-name: Disqus
 x-streamrank:
-  polling_total_time_average: 0
-  polling_size_download_average: 0
-  streaming_total_time_average: 0
-  streaming_size_download_average: 0
-  change_yes: 0
-  change_no: 0
-  time_percentage: 0
-  size_percentage: 0
-  change_percentage: 0
-  last_run: ""
-  days_run: 0
-  minute_run: 0
+  polling_total_time_average: "0.42"
+  polling_size_download_average: "24669.39"
+  streaming_total_time_average: "0.21"
+  streaming_size_download_average: "12365.57"
+  change_yes: "184"
+  change_no: "1029"
+  time_percentage: "49"
+  size_percentage: "50"
+  change_percentage: "15"
+  last_run: "2018-05-12"
+  days_run: "8"
+  minute_run: "0"
 ---
