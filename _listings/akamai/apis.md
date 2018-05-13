@@ -25,15 +25,15 @@ modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Akamai API Create a Network List
-  description: Create a Network List
+- name: Akamai API Modify a Network List
+  description: Modify a Network List
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Lists
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/akamai/network-list-v1-network-lists-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/akamai/network-list-v1-network-lists-networklistid-put.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
