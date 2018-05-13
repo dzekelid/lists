@@ -23,18 +23,17 @@ modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Twitter List Statuses
-  description: Returns a timeline of tweets authored by memebers of the specified
-    list
+- name: Twitter Remove User From List
+  description: Returns the list of memebers destroy
   image: https://avatars1.githubusercontent.com/u/50278?v=4
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Lists
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/lists-statuses-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/lists-members-destroy-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/lists-statuses-json-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/lists-members-destroy-get-postman.md
 x-common:
 - type: x-net-library
   url: https://tweetinvi.codeplex.com/
