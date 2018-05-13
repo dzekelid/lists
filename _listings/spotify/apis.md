@@ -35,15 +35,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/spotify/users-user-id-playlists-playlist-id-tracks-put.md
-- name: Spotify Update User Playlist Followers
-  description: '[Follow a Playlist](https://developer.spotify.com/web-api/follow-playlist/)'
+- name: Spotify Get User Playlist Followers Contains
+  description: '[Check if Users Follow a Playlist](https://developer.spotify.com/web-api/check-user-following-playlist/)'
   image: http://spotifypresscom.files.wordpress.com/2013/01/spotify-logo-primary-vertical-light-background-rgb.jpg
   humanURL: http://www.spotify.com
   baseURL: https://api.spotify.com//v1
   tags: Lists
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/spotify/users-user-id-playlists-playlist-id-followers-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/spotify/users-user-id-playlists-playlist-id-followers-contains-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/spotify/users-user-id-playlists-playlist-id-followers-contains-get-postman.md
 x-common:
 - type: x-apijson--authoritative
   url: https://developer.spotify.com/wp-content/uploads/apis.json
