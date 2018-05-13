@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Tasks
-  description: Lets you manage your tasks and task lists.
+  title: Google Tasks API Delete Lists Task List Tasks Task
+  description: Deletes the specified task from the task list.
   contact:
     name: Google
     url: https://google.com
