@@ -42,17 +42,20 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twilio/accounts-accountsid-sip-ipaccesscontrollists-post.md
-- name: Twilio Delete SIP Credential From List
-  description: Remove a Credential from a CredentialList.
+- name: Twilio Get SIP Credentials List
+  description: Get a specific Credential in a list. Though a password is stored for
+    each username in your list, the password is not returned to protect your password.
+    If you cannot remember your password, you will need to POST to this resource to
+    update it.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twilio-logo.png
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Lists
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twilio/accounts-accountsid-sip-credentiallists-clsid-credentials-credentialsid-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twilio/accounts-accountsid-sip-credentiallists-clsid-credentials-credentialsid-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twilio/accounts-accountsid-sip-credentiallists-clsid-credentials-credentialsid-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twilio/accounts-accountsid-sip-credentiallists-clsid-credentials-credentialsid-get-postman.md
 x-common:
 - type: x-net-library
   url: https://www.twilio.com/docs/csharp/install
