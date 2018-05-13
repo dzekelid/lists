@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Share a Network List
+  description: Share a Network List
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,7 +19,7 @@ paths:
       description: Share a Network List
       operationId: networklistv1network-listsnetworklistidshare
       parameters:
-      - in: String
+      - in: query
         name: networkListId
         description: Unique identifier for the network list, corresponding to the
           unique-id within the data
