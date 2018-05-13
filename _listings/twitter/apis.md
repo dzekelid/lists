@@ -23,18 +23,18 @@ modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Twitter List LIst
-  description: Return all lists the authenticating or specified user subscribes to,
-    including their own.
+- name: Twitter List Statuses
+  description: Returns a timeline of tweets authored by memebers of the specified
+    list
   image: https://avatars1.githubusercontent.com/u/50278?v=4
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Lists
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/lists-list-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/lists-statuses-json-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/lists-list-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/lists-statuses-json-get-postman.md
 x-common:
 - type: x-net-library
   url: https://tweetinvi.codeplex.com/
