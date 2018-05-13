@@ -26,17 +26,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/google-tasks/users-me-lists-post.md
-- name: Google Tasks API Get Lists Task List Tasks
-  description: Returns all tasks in the specified task list.
+- name: Google Tasks API Add Lists Task List Tasks
+  description: Creates a new task on the specified task list.
   image: ""
   humanURL: https://developers.google.com/google-apps/tasks/
   baseURL: http:://www.googleapis.com//tasks/v1
   tags: Lists
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/google-tasks/lists-tasklist-tasks-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/google-tasks/lists-tasklist-tasks-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/google-tasks/lists-tasklist-tasks-post.md
 x-common:
 - type: x-code
   url: https://developers.google.com/google-apps/tasks/setup
