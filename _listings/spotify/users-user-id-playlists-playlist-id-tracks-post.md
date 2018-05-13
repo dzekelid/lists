@@ -1,13 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Spotify
-  description: Our Web API lets your applications fetch data from the Spotify music
-    catalog and manage user&rsquo;s playlists and saved music. Based on simple REST
-    principles, our Web API endpoints return metadata in JSON format about artists,
-    albums, and tracks directly from the Spotify catalogue. The API also provides
-    access to user-related data such as playlists and music saved in a &ldquo;Your
-    Music&rdquo; library, subject to user&rsquo;s authorization.
+  title: Spotify Add User Playlist Track
+  description: '[Add Tracks to a Playlist](https://developer.spotify.com/web-api/add-tracks-to-playlist/)'
   version: v1
 host: api.spotify.com
 basePath: /v1
