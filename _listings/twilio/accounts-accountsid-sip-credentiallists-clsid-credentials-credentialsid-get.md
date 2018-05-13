@@ -1,12 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Twilio
-  description: Twilio is a cloud communications Infrastructure as a Service(IaaS)
-    company based in San Francisco, California. Twilio allows software developers
-    to programmatically make and receive phone calls and send and receive text messages
-    using its web service APIs. Twilio's services are accessed over HTTP and are billed
-    based on usage.
+  title: Twilio Get SIP Credentials List
+  description: Get a specific Credential in a list. Though a password is stored for
+    each username in your list, the password is not returned to protect your password.
+    If you cannot remember your password, you will need to POST to this resource to
+    update it.
   termsOfService: https://www.twilio.com/legal/tos
   version: v1
 host: api.twilio.com
