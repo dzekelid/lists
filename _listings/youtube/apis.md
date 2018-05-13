@@ -27,17 +27,19 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/youtube/playlists-put.md
-- name: Youtube Delete Playlists
-  description: Deletes a playlist.
+- name: Youtube Get Playlists
+  description: Returns a collection of playlists that match the API request parameters.
+    For example, you can retrieve all playlists that the authenticated user owns,
+    or you can retrieve one or more playlists by their unique IDs.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
   humanURL: https://www.youtube.com/
   baseURL: https://www.googleapis.com//youtube/v1
   tags: Lists
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/youtube/playlists-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/youtube/playlists-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/youtube/playlists-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/youtube/playlists-get-postman.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
