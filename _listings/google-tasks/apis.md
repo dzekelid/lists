@@ -26,17 +26,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/google-tasks/users-me-lists-post.md
-- name: Google Tasks API Get Lists Task List Tasks Task
-  description: Returns the specified task.
+- name: Google Tasks API Patch Lists Task List Tasks Task
+  description: Updates the specified task. This method supports patch semantics.
   image: ""
   humanURL: https://developers.google.com/google-apps/tasks/
   baseURL: http:://www.googleapis.com//tasks/v1
   tags: Lists
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/google-tasks/lists-tasklist-tasks-task-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/google-tasks/lists-tasklist-tasks-task-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/google-tasks/lists-tasklist-tasks-task-patch.md
 x-common:
 - type: x-code
   url: https://developers.google.com/google-apps/tasks/setup
