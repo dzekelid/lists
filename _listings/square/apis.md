@@ -21,18 +21,16 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/square/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Square Connect API Post V2 Catalog Update Item Modifier Lists
-  description: |-
-    Updates the [CatalogModifierList](#type-catalogmodifierlist) objects
-    that apply to the targeted [CatalogItem](#type-catalogitem) without having
-    to perform an upsert on the entire item.
+- name: Square Connect API Post Location Modifier Lists
+  description: Creates an item modifier list and at least one modifier option for
+    it.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/square-logo.png
   humanURL: https://squareup.com
   baseURL: https://connect.squareup.com/v1/
   tags: Lists
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/square/v2-catalog-update-item-modifier-lists-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/square/location-id-modifier-lists-post.md
 x-common:
 - type: x-base
   url: https://connect.squareup.com
