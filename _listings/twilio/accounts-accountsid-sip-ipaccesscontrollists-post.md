@@ -1,12 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Twilio
-  description: Twilio is a cloud communications Infrastructure as a Service(IaaS)
-    company based in San Francisco, California. Twilio allows software developers
-    to programmatically make and receive phone calls and send and receive text messages
-    using its web service APIs. Twilio's services are accessed over HTTP and are billed
-    based on usage.
+  title: Twilio Add SIP IP Access Control List
+  description: Create a new IpAccessControlList resource.nnWhen created, the list
+    will contain no IP addresses. You will need to add IP addresses to the list for
+    it to be active. To add IP addresses, you will need to POST to the IpAddresses
+    List subresource.n
   termsOfService: https://www.twilio.com/legal/tos
   version: v1
 host: api.twilio.com
