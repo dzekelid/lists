@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/soundcloud/playlists-playlist-id-json-get.md
-- name: SoundCloud Get My Playlists
-  description: Returns a collection of playlists created by the logged-in user
+- name: SoundCloud Get Playlists
+  description: Returns a collection of playlists
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Soundcloud-logo.jpg
   humanURL: http://soundcloud.com
   baseURL: https://api.soundcloud.com//
   tags: Lists
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/soundcloud/me-playlists-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/soundcloud/playlists-json-get.md
 x-common:
 - type: x-base
   url: https://api.soundcloud.com
