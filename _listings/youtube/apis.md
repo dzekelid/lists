@@ -27,15 +27,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/youtube/playlists-put.md
-- name: Youtube Add Playlists
-  description: Creates a playlist.
+- name: Youtube Put Playlists
+  description: Modifies a playlist. For example, you could change a playlist's title,
+    description, or privacy status.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
   humanURL: https://www.youtube.com/
   baseURL: https://www.googleapis.com//youtube/v1
   tags: Lists
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/youtube/playlists-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/youtube/playlists-put.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
