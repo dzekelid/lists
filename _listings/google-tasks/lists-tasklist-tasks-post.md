@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Tasks
-  description: Lets you manage your tasks and task lists.
+  title: Google Tasks API Add Lists Task List Tasks
+  description: Creates a new task on the specified task list.
   contact:
     name: Google
     url: https://google.com
