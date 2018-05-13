@@ -21,15 +21,18 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/square/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Square Connect API Put Location Modifier Lists Modifier List
-  description: Modifies the details of an existing item modifier list.
+- name: Square Connect API Delete Location Modifier Lists Modifier List
+  description: Deletes an existing item modifier list and all modifier options associated
+    with it.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/square-logo.png
   humanURL: https://squareup.com
   baseURL: https://connect.squareup.com/v1/
   tags: Lists
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/square/location-id-modifier-lists-modifier-list-id-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/square/location-id-modifier-lists-modifier-list-id-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/square/location-id-modifier-lists-modifier-list-id-delete-postman.md
 x-common:
 - type: x-base
   url: https://connect.squareup.com
