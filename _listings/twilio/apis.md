@@ -43,17 +43,18 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twilio/accounts-accountsid-sip-ipaccesscontrollists-post.md
 - name: Twilio Get SIP Credentials List
-  description: Get the list of Credentials in a CredentialList. The passwords for
-    the Credentials are intentionally not returned so as to protect them.
+  description: Add a Credential to the CredentialList.nnWhen creating a Credential,
+    you will POST both a username and password, but only receive the username back
+    in the response. The password is intentionally not returned so as to protect it.n
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twilio-logo.png
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Lists
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twilio/accounts-accountsid-sip-credentiallists-clsid-credentials-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twilio/accounts-accountsid-sip-credentiallists-clsid-credentials-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twilio/accounts-accountsid-sip-credentiallists-clsid-credentials-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twilio/accounts-accountsid-sip-credentiallists-clsid-credentials-post-postman.md
 x-common:
 - type: x-net-library
   url: https://www.twilio.com/docs/csharp/install
