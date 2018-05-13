@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Tasks
-  description: Lets you manage your tasks and task lists.
+  title: Google Tasks API Add Lists Task List Tasks Task Move
+  description: Moves the specified task to another position in the task list. This
+    can include putting it as a child task under a new parent and/or move it to a
+    different position among its sibling tasks.
   contact:
     name: Google
     url: https://google.com
