@@ -23,17 +23,17 @@ modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Twitter Add Member
-  description: Returns list of members create
+- name: Twitter Destroy List
+  description: Returns list of destroy
   image: https://avatars1.githubusercontent.com/u/50278?v=4
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Lists
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/list-members-create-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/lists-destroy-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/list-members-create-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/lists-destroy-post-postman.md
 x-common:
 - type: x-net-library
   url: https://tweetinvi.codeplex.com/
