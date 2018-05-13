@@ -32,15 +32,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/disqus/whitelists-remove-json-post.md
-- name: Disqus Blacklists List
-  description: Blacklists List
+- name: Disqus Blacklists Remove
+  description: Blacklists Remove
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/disqus-logo-icon-750.jpg
   humanURL: https://disqus.com/
   baseURL: https://disqus.com/api/3.0/
   tags: Lists
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/disqus/blacklists-list-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/disqus/blacklists-remove-json-post.md
 x-common:
 - type: x-base
   url: https://disqus.com/api/
