@@ -36,9 +36,9 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/sendgrid/contactdb-recipients-recipient-id-lists-get.md
-- name: SendGrid Get Contactdb Lists
+- name: SendGrid Add Contactdb Lists
   description: |-
-    **This endpoint allows you to retrieve all of your recipient lists. If you don't have any lists, an empty array will be returned.**
+    **This endpoint allows you to create a list for your recipients.**
 
     The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
@@ -47,9 +47,7 @@ apis:
   tags: Lists
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/sendgrid/contactdb-lists-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/sendgrid/contactdb-lists-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/sendgrid/contactdb-lists-post.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
