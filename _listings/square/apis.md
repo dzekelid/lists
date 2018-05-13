@@ -21,17 +21,17 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/square/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Square Connect API Get Location Modifier Lists
-  description: Lists all of a location's modifier lists.
+- name: Square Connect API Get Location Modifier Lists Modifier List
+  description: Provides the details for a single modifier list.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/square-logo.png
   humanURL: https://squareup.com
   baseURL: https://connect.squareup.com/v1/
   tags: Lists
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/square/location-id-modifier-lists-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/square/location-id-modifier-lists-modifier-list-id-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/square/location-id-modifier-lists-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/square/location-id-modifier-lists-modifier-list-id-get-postman.md
 x-common:
 - type: x-base
   url: https://connect.squareup.com
