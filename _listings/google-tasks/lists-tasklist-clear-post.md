@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Tasks
-  description: Lets you manage your tasks and task lists.
+  title: Google Tasks API Add Lists Task List Clear
+  description: Clears all completed tasks from the specified task list. The affected
+    tasks will be marked as 'hidden' and no longer be returned by default when retrieving
+    all tasks for a task list.
   contact:
     name: Google
     url: https://google.com
