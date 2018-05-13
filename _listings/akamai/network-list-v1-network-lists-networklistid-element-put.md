@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Add an Element
+  description: Add an Element
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,7 +19,7 @@ paths:
       description: Add an Element
       operationId: networklistv1network-listsnetworklistidelement
       parameters:
-      - in: String
+      - in: query
         name: networkListId
         description: Unique identifier for the network list, corresponding to the
           unique-id within the data
