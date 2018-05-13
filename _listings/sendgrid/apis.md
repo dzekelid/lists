@@ -36,9 +36,9 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/sendgrid/contactdb-recipients-recipient-id-lists-get.md
-- name: SendGrid Delete Contactdb Lists List
+- name: SendGrid Get Contactdb Lists List
   description: |-
-    **This endpoint allows you to delete a specific recipient list with the given ID.**
+    This endpoint allows you to retrieve a single recipient list.
 
     The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
@@ -47,7 +47,9 @@ apis:
   tags: Lists
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/sendgrid/contactdb-lists-list-id-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/sendgrid/contactdb-lists-list-id-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/sendgrid/contactdb-lists-list-id-get-postman.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
