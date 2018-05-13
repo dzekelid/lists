@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Tasks
-  description: Lets you manage your tasks and task lists.
+  title: Google Tasks API Add Users @me Lists
+  description: Creates a new task list and adds it to the authenticated user's task
+    lists.
   contact:
     name: Google
     url: https://google.com
