@@ -25,15 +25,15 @@ modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Akamai API Get Activation Snapshot
-  description: Get Activation Snapshot
+- name: Akamai API Search Network Lists
+  description: Search Network Lists
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Lists
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/akamai/network-list-v1-network-lists-networklistid-history-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/akamai/network-list-v1-network-lists-search-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
