@@ -55,17 +55,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twilio/accounts-accountsid-sip-credentiallists-clsid-delete.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twilio/accounts-accountsid-sip-credentiallists-clsid-delete-postman.md
-- name: Twilio Get SIP Credentials List
-  description: Create a new Credential List.
+- name: Twilio Delete SIP IP Access Control List IP Address
+  description: Deletes an IP address entry from the list.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twilio-logo.png
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Lists
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twilio/accounts-accountsid-sip-credentiallists-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twilio/accounts-accountsid-sip-ipaccesscontrollists-ipaccesscontrollistsid-ipaddresses-ipaddresssid-delete.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twilio/accounts-accountsid-sip-credentiallists-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twilio/accounts-accountsid-sip-ipaccesscontrollists-ipaccesscontrollistsid-ipaddresses-ipaddresssid-delete-postman.md
 x-common:
 - type: x-net-library
   url: https://www.twilio.com/docs/csharp/install
