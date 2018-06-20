@@ -1,41 +1,40 @@
 ---
 name: Facebook
-description: Facebook is an online social networking service that allows its users
-  to connect with friends and family as well as make new connections. It provides
-  its users with the ability to create a profile, update information, add images,
-  send friend requests, and accept requests from other users. Its features include
-  status update, photo tagging and sharing, and more.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+x-slug: facebook
+description: Create an account or log into Facebook. Connect with friends, family
+  and other people you know. Share photos and videos, send messages and get updates.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Stack
-- Social Network
-- Social API
-- Social
-- Road Map
-- Payment API
-- Partners
-- My API Stack
-- Issues Example
-- Issues
-- Indie EdTech Data Jam
-- Facebook Stack
-created: "2018-05-13"
-modified: "2018-05-13"
+x-alexaRank: "3"
+tags: Lists
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/facebook/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Facebook Get User Friendlists
-  description: User Friendlists
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
-  humanURL: https://facebook.com
-  baseURL: https://graph.facebook.com//v3.0
+- name: Facebook Post User Friendlists
+  x-api-slug: facebook
+  description: Creates a FriendList for the user
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
+  humanURL: http:///business
+  baseURL: https://graph.facebook.com////{user}/friendlists
+  tags: User,Friendlists
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/facebook/userfriendlists-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/facebook/userfriendlists-post-openapi.md
+- name: Facebook
+  x-api-slug: facebook
+  description: Create an account or log into Facebook. Connect with friends, family
+    and other people you know. Share photos and videos, send messages and get updates.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
+  humanURL: http:///business
+  baseURL: https://graph.facebook.com//
   tags: Lists
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/facebook/#123;user-id-#125;-friendlists-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/facebook/openapi.md
 x-common:
 - type: x-android-sdk
   url: https://developers.facebook.com/docs/android/share
@@ -53,6 +52,8 @@ x-common:
   url: https://www.facebook.com/business/news/rss/
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/facebook
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/facebook
 - type: x-developer
   url: https://developers.facebook.com/
 - type: x-forum
@@ -85,6 +86,10 @@ x-common:
   url: https://www.facebook.com/about/government_requests
 - type: x-twitter
   url: https://twitter.com/facebook
+- type: x-website
+  url: http:///business
+- type: x-website
+  url: http://facebook.com
 - type: x-website
   url: https://facebook.com
 include: []
