@@ -5,10 +5,10 @@ description: Spotify is a digital music service that gives you access to million
   of songs.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
 x-kinRank: "8"
-x-alexaRank: "133"
+x-alexaRank: "132"
 tags: Lists
-created: "2018-06-20"
-modified: "2018-06-20"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/spotify/apis.md
 specificationVersion: "0.14"
 apis:
@@ -212,6 +212,8 @@ x-common:
   url: https://developer.spotify.com/technologies/spotify-ios-sdk/
 - type: x-issues
   url: https://github.com/spotify/web-api/issues
+- type: x-linkedin
+  url: https://www.linkedin.com/company/spotify/
 - type: x-stack-overflow
   url: http://stackoverflow.com/questions/tagged/spotify
 - type: x-terms-of-service

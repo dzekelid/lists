@@ -4,7 +4,7 @@ description: This is a repository of lists APIs, self-contained as a Github repo
   with HTML and YAML representations of the APIs and their surrounding operations.
 image: http://template.streamdata.gallery/assets/lists.png
 created: "2018-02-24"
-modified: "2018-06-20"
+modified: "2018-06-25"
 url: http://lists.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
@@ -36,8 +36,8 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/google-tasks/apis.yaml
 - name: Azure Automation
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/azure-automation/apis.yaml
-- name: New York Times
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/new-york-times/apis.yaml
+- name: The New York Times
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/the-new-york-times/apis.yaml
 - name: Disqus
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/disqus/apis.yaml
 - name: Spotify
