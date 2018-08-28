@@ -8,37 +8,30 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18820-new-
 x-kinRank: "9"
 x-alexaRank: "117"
 tags: Lists
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/the-new-york-times/apis.md
 specificationVersion: "0.14"
 apis:
-- name: New York Times Best Seller List
-  x-api-slug: new-york-times
+- name: New York Times - Best Seller List
+  x-api-slug: booksv2lists-format-get
   description: The Books API has services for getting information about The New York
     Times Best Sellers Lists and Book Reviews.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18820-new-york-times.jpg
   humanURL: http://nytimes.com
-  baseURL: https://api.nytimes.com//svc//books/v2/lists.{format}
-  tags: News,Lists
+  baseURL: https://api.nytimes.com//svc
+  tags: Media, News, API Provider, Profiles, Publish, General Data, Relative Data,
+    Service API, Pedestal, Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/the-new-york-times/booksv2lists-format-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/the-new-york-times/booksv2lists-format-get-openapi.md
-- name: New York Times
-  x-api-slug: new-york-times
-  description: 'The New York Times: Find breaking news, multimedia, reviews & opinion
-    on Washington, business, sports, movies, travel, books, jobs, education, real
-    estate, cars & more at nytimes.com.'
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18820-new-york-times.jpg
-  humanURL: http://nytimes.com
-  baseURL: https://api.nytimes.com//svc
-  tags: Lists
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/the-new-york-times/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://the.guardian.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://the.new.york.times.stack.network
 - type: x-application-gallery
   url: http://developer.nytimes.com/gallery
 - type: x-application-management

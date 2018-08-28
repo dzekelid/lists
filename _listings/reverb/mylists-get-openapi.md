@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 0
 info:
-  title: reverb Get My Lists
+  title: Reverb Get My Lists
   description: Get a list of your lists (wishlist, watch list, etc)
   termsOfService: https://reverb.com/page/terms
   contact:

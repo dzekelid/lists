@@ -1,10 +1,8 @@
----
 swagger: "2.0"
 x-collection-name: Foursquare
 x-complete: 1
 info:
   title: Foursquare
-  description: checkin-explore-your-city-and-connect-people-and-places-bapi-v2-b
   version: 1.0.0
 host: api.foursquare.com
 basePath: /v2/
@@ -444,4 +442,72 @@ paths:
       tags:
       - Users
       - Lists
----
+  /campaigns/list:
+    get:
+      summary: Get Campaigns List
+      description: /campaigns/add
+      operationId: campaignsadd
+      x-api-path-slug: campaignslist-get
+      parameters:
+      - in: query
+        name: groupId
+        description: If specified, limits response to campaigns involving the given
+          group
+      - in: query
+        name: specialId
+        description: If specified, limits response to campaigns involving the given
+          special
+      - in: query
+        name: status
+        description: 'Which campaigns to return: pending, active, expired, all (default=all)'
+      - in: query
+        name: v
+        description: All requests now accept a v=YYYYMMDD param, which indicates that
+          the client is up to date as of the specified date
+      responses:
+        200:
+          description: OK
+      tags:
+      - Campaigns
+      - List
+  /specials/list:
+    get:
+      summary: Get Specials List
+      description: /specials/add
+      operationId: specialsadd
+      x-api-path-slug: specialslist-get
+      parameters:
+      - in: query
+        name: status
+        description: 'Which specials to return: pending, active, expired, all'
+      - in: query
+        name: v
+        description: All requests now accept a v=YYYYMMDD param, which indicates that
+          the client is up to date as of the specified date
+      - in: query
+        name: venueId
+        description: Comma-separated list of venue IDs; filters results to the specials
+          assigned to the venue(s)
+      responses:
+        200:
+          description: OK
+      tags:
+      - Specials
+      - List
+  /venuegroups/list:
+    get:
+      summary: Get Venuegroups List
+      description: /venuegroups/{GROUP_ID}/delete
+      operationId: venuegroupsgroup-iddelete
+      x-api-path-slug: venuegroupslist-get
+      parameters:
+      - in: query
+        name: v
+        description: All requests now accept a v=YYYYMMDD param, which indicates that
+          the client is up to date as of the specified date
+      responses:
+        200:
+          description: OK
+      tags:
+      - Venuegroups
+      - List

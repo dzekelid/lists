@@ -11,44 +11,36 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordn
 x-kinRank: "8"
 x-alexaRank: "46540"
 tags: Lists
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/wordnik/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Wordnik Fetches WordList objects for the logged-in user.
-  x-api-slug: wordnik
+- name: Wordnik - Fetches WordList objects for the logged-in user.
+  x-api-slug: account-jsonwordlists-get
   description: Fetches wordlist objects for the logged-in user..
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordnik.jpg
   humanURL: http://wordnik.com
-  baseURL: https://api.wordnik.com//v4//account.json/wordLists
-  tags: Account,Words,Lists
+  baseURL: https://api.wordnik.com//v4
+  tags: Content, Dictionary, internet, Technology, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/wordnik/account-jsonwordlists-get-openapi.md
-- name: Wordnik Creates a WordList.
-  x-api-slug: wordnik
+- name: Wordnik - Creates a WordList.
+  x-api-slug: wordlists-json-post
   description: Creates a wordlist..
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordnik.jpg
   humanURL: http://wordnik.com
-  baseURL: https://api.wordnik.com//v4//wordLists.json
-  tags: Words,Lists
+  baseURL: https://api.wordnik.com//v4
+  tags: Content, Dictionary, internet, Technology, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/wordnik/wordlists-json-post-openapi.md
-- name: Wordnik
-  x-api-slug: wordnik
-  description: The Wordnik API lets you request definitions, example sentences, spelling
-    suggestions, related words like synonyms and antonyms, phrases containing a given
-    word, word autocompletion, random words, words of the day, and much more.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2708-wordnik.jpg
-  humanURL: http://wordnik.com
-  baseURL: https://api.wordnik.com//v4
-  tags: Lists
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/wordnik/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://wikipedia.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://wordnik.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/wordnik
 - type: x-developer

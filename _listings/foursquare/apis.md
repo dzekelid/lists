@@ -7,209 +7,378 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursq
 x-kinRank: "9"
 x-alexaRank: "2544"
 tags: Lists
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Foursquare Post Lists Add
-  x-api-slug: foursquare
+- name: Foursquare - Post Lists Add
+  x-api-slug: listsadd-post
   description: /lists/{LIST_ID}
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
   humanURL: http://blog.foursquare.com
-  baseURL: https://api.foursquare.com//v2///lists/add
-  tags: Lists
+  baseURL: https://api.foursquare.com//v2/
+  tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
+    Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/listsadd-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/listsadd-post-openapi.md
-- name: Foursquare Get Lists
-  x-api-slug: foursquare
+- name: Foursquare - Get Lists
+  x-api-slug: listslist-id-get
   description: /tips/{TIP_ID}/unmark
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
   humanURL: http://blog.foursquare.com
-  baseURL: https://api.foursquare.com//v2///lists/{LIST_ID}
-  tags: Lists
+  baseURL: https://api.foursquare.com//v2/
+  tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
+    Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/listslist-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/listslist-id-get-openapi.md
-- name: Foursquare Post Lists Additem
-  x-api-slug: foursquare
+- name: Foursquare - Post Lists Additem
+  x-api-slug: listslist-idadditem-post
   description: /lists/{LIST_ID}/suggestvenues
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
   humanURL: http://blog.foursquare.com
-  baseURL: https://api.foursquare.com//v2///lists/{LIST_ID}/additem
-  tags: Lists,Item
+  baseURL: https://api.foursquare.com//v2/
+  tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
+    Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/listslist-idadditem-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/listslist-idadditem-post-openapi.md
-- name: Foursquare Post Lists Deleteitem
-  x-api-slug: foursquare
+- name: Foursquare - Post Lists Deleteitem
+  x-api-slug: listslist-iddeleteitem-post
   description: /lists/{LIST_ID}/additem
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
   humanURL: http://blog.foursquare.com
-  baseURL: https://api.foursquare.com//v2///lists/{LIST_ID}/deleteitem
-  tags: Lists,Item
+  baseURL: https://api.foursquare.com//v2/
+  tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
+    Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/listslist-iddeleteitem-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/listslist-iddeleteitem-post-openapi.md
-- name: Foursquare Post Lists Follow
-  x-api-slug: foursquare
+- name: Foursquare - Post Lists Follow
+  x-api-slug: listslist-idfollow-post
   description: /lists/{LIST_ID}/deleteitem
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
   humanURL: http://blog.foursquare.com
-  baseURL: https://api.foursquare.com//v2///lists/{LIST_ID}/follow
-  tags: Lists,Follow
+  baseURL: https://api.foursquare.com//v2/
+  tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
+    Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/listslist-idfollow-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/listslist-idfollow-post-openapi.md
-- name: Foursquare Get Lists Followers
-  x-api-slug: foursquare
+- name: Foursquare - Get Lists Followers
+  x-api-slug: listslist-idfollowers-get
   description: /lists/add
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
   humanURL: http://blog.foursquare.com
-  baseURL: https://api.foursquare.com//v2///lists/{LIST_ID}/followers
-  tags: Lists,Followers
+  baseURL: https://api.foursquare.com//v2/
+  tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
+    Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/listslist-idfollowers-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/listslist-idfollowers-get-openapi.md
-- name: Foursquare Post Lists Moveitem
-  x-api-slug: foursquare
+- name: Foursquare - Post Lists Moveitem
+  x-api-slug: listslist-idmoveitem-post
   description: /lists/{LIST_ID}/follow
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
   humanURL: http://blog.foursquare.com
-  baseURL: https://api.foursquare.com//v2///lists/{LIST_ID}/moveitem
-  tags: Lists,Moveitem
+  baseURL: https://api.foursquare.com//v2/
+  tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
+    Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/listslist-idmoveitem-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/listslist-idmoveitem-post-openapi.md
-- name: Foursquare Post Lists Share
-  x-api-slug: foursquare
+- name: Foursquare - Post Lists Share
+  x-api-slug: listslist-idshare-post
   description: /lists/{LIST_ID}/moveitem
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
   humanURL: http://blog.foursquare.com
-  baseURL: https://api.foursquare.com//v2///lists/{LIST_ID}/share
-  tags: Lists,Share
+  baseURL: https://api.foursquare.com//v2/
+  tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
+    Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/listslist-idshare-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/listslist-idshare-post-openapi.md
-- name: Foursquare Get Lists Suggestphoto
-  x-api-slug: foursquare
+- name: Foursquare - Get Lists Suggestphoto
+  x-api-slug: listslist-idsuggestphoto-get
   description: /lists/{LIST_ID}/followers
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
   humanURL: http://blog.foursquare.com
-  baseURL: https://api.foursquare.com//v2///lists/{LIST_ID}/suggestphoto
-  tags: Lists,Suggestphoto
+  baseURL: https://api.foursquare.com//v2/
+  tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
+    Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/listslist-idsuggestphoto-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/listslist-idsuggestphoto-get-openapi.md
-- name: Foursquare Get Lists Suggesttip
-  x-api-slug: foursquare
+- name: Foursquare - Get Lists Suggesttip
+  x-api-slug: listslist-idsuggesttip-get
   description: /lists/{LIST_ID}/suggestphoto
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
   humanURL: http://blog.foursquare.com
-  baseURL: https://api.foursquare.com//v2///lists/{LIST_ID}/suggesttip
-  tags: Lists,Suggesttip
+  baseURL: https://api.foursquare.com//v2/
+  tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
+    Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/listslist-idsuggesttip-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/listslist-idsuggesttip-get-openapi.md
-- name: Foursquare Get Lists Suggestvenues
-  x-api-slug: foursquare
+- name: Foursquare - Get Lists Suggestvenues
+  x-api-slug: listslist-idsuggestvenues-get
   description: /lists/{LIST_ID}/suggesttip
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
   humanURL: http://blog.foursquare.com
-  baseURL: https://api.foursquare.com//v2///lists/{LIST_ID}/suggestvenues
-  tags: Lists,Suggestvenues
+  baseURL: https://api.foursquare.com//v2/
+  tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
+    Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/listslist-idsuggestvenues-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/listslist-idsuggestvenues-get-openapi.md
-- name: Foursquare Post Lists Unfollow
-  x-api-slug: foursquare
+- name: Foursquare - Post Lists Unfollow
+  x-api-slug: listslist-idunfollow-post
   description: /lists/{LIST_ID}/share
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
   humanURL: http://blog.foursquare.com
-  baseURL: https://api.foursquare.com//v2///lists/{LIST_ID}/unfollow
-  tags: Lists,Unfollow
+  baseURL: https://api.foursquare.com//v2/
+  tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
+    Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/listslist-idunfollow-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/listslist-idunfollow-post-openapi.md
-- name: Foursquare Post Lists Update
-  x-api-slug: foursquare
+- name: Foursquare - Post Lists Update
+  x-api-slug: listslist-idupdate-post
   description: /lists/{LIST_ID}/unfollow
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
   humanURL: http://blog.foursquare.com
-  baseURL: https://api.foursquare.com//v2///lists/{LIST_ID}/update
-  tags: Lists
+  baseURL: https://api.foursquare.com//v2/
+  tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
+    Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/listslist-idupdate-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/listslist-idupdate-post-openapi.md
-- name: Foursquare Post Lists Updateitem
-  x-api-slug: foursquare
+- name: Foursquare - Post Lists Updateitem
+  x-api-slug: listslist-idupdateitem-post
   description: /lists/{LIST_ID}/update
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
   humanURL: http://blog.foursquare.com
-  baseURL: https://api.foursquare.com//v2///lists/{LIST_ID}/updateitem
-  tags: Lists,Item
+  baseURL: https://api.foursquare.com//v2/
+  tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
+    Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/listslist-idupdateitem-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/listslist-idupdateitem-post-openapi.md
-- name: Foursquare Get Users Lists
-  x-api-slug: foursquare
+- name: Foursquare - Get Users Lists
+  x-api-slug: usersuser-idlists-get
   description: /users/{USER_ID}/friends
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
   humanURL: http://blog.foursquare.com
-  baseURL: https://api.foursquare.com//v2///users/{USER_ID}/lists
-  tags: Users,Lists
+  baseURL: https://api.foursquare.com//v2/
+  tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
+    Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/usersuser-idlists-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/usersuser-idlists-get-openapi.md
-- name: Foursquare
-  x-api-slug: foursquare
-  description: foursquare makes the real world easier to use. We build tools that
-    help you keep up with friends, discover whats nearby, save money and unlock deals.
-    Whether youre setting off on a trip around the world, coordinating a night out
-    with friends, or trying to pick out the best dish at your local restaurant, foursquare
-    is the perfect companion. The foursquare API gives you access to all of the data
-    used by the foursquare mobile applications, and, in some cases, even more.
+- name: Foursquare - Get Campaigns List
+  x-api-slug: campaignslist-get
+  description: /campaigns/add
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
   humanURL: http://blog.foursquare.com
   baseURL: https://api.foursquare.com//v2/
-  tags: Lists
+  tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
+    Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/campaignslist-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/campaignslist-get-openapi.md
+- name: Foursquare - Get Specials List
+  x-api-slug: specialslist-get
+  description: /specials/add
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
+  humanURL: http://blog.foursquare.com
+  baseURL: https://api.foursquare.com//v2/
+  tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
+    Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/specialslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/specialslist-get-openapi.md
+- name: Foursquare - Get Venuegroups List
+  x-api-slug: venuegroupslist-get
+  description: /venuegroups/{GROUP_ID}/delete
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
+  humanURL: http://blog.foursquare.com
+  baseURL: https://api.foursquare.com//v2/
+  tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
+    Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/venuegroupslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/venuegroupslist-get-openapi.md
+- name: Foursquare - Get Venuegroups List
+  x-api-slug: venuegroupslist-get
+  description: /venuegroups/{GROUP_ID}/delete
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
+  humanURL: http://blog.foursquare.com
+  baseURL: https://api.foursquare.com//v2/
+  tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
+    Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/venuegroupslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/venuegroupslist-get-openapi.md
+- name: Foursquare - Get Venuegroups List
+  x-api-slug: venuegroupslist-get
+  description: /venuegroups/{GROUP_ID}/delete
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
+  humanURL: http://blog.foursquare.com
+  baseURL: https://api.foursquare.com//v2/
+  tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
+    Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/venuegroupslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/venuegroupslist-get-openapi.md
+- name: Foursquare - Get Specials List
+  x-api-slug: specialslist-get
+  description: /specials/add
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
+  humanURL: http://blog.foursquare.com
+  baseURL: https://api.foursquare.com//v2/
+  tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
+    Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/specialslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/specialslist-get-openapi.md
+- name: Foursquare - Get Specials List
+  x-api-slug: specialslist-get
+  description: /specials/add
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
+  humanURL: http://blog.foursquare.com
+  baseURL: https://api.foursquare.com//v2/
+  tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
+    Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/specialslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/specialslist-get-openapi.md
+- name: Foursquare - Get Campaigns List
+  x-api-slug: campaignslist-get
+  description: /campaigns/add
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
+  humanURL: http://blog.foursquare.com
+  baseURL: https://api.foursquare.com//v2/
+  tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
+    Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/campaignslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/campaignslist-get-openapi.md
+- name: Foursquare - Get Campaigns List
+  x-api-slug: campaignslist-get
+  description: /campaigns/add
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
+  humanURL: http://blog.foursquare.com
+  baseURL: https://api.foursquare.com//v2/
+  tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
+    Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/campaignslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/foursquare/campaignslist-get-openapi.md
 x-common:
 - type: x-api-json--authoritative
   url: http://apis.io/apisdef/legacy/foursquare.json
+- type: x-api-gallery
+  url: http://fluxiom.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://foursquare.stack.network
 - type: x-apigee-console
   url: https://api.apigee.com/v1/consoles/foursquare/apidescription?format=internal&ver=1393644831000
 - type: x-application-management

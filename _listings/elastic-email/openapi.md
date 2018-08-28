@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Elastic Email
 x-complete: 1
@@ -273,4 +272,68 @@ paths:
       - Mailer
       - Lists
       - Unsubscribed
----
+  mailer/channel/list:
+    get:
+      summary: Listing of Active Channels
+      description: Listing of Active Channels
+      operationId: getMailerChannelList
+      x-api-path-slug: mailerchannellist-get
+      parameters:
+      - in: query
+        name: api_key
+        description: Your API Key
+      - in: query
+        name: format
+        description: csv or xml
+      - in: query
+        name: username
+        description: Your user name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Mailer
+      - Channel
+      - List
+  mailer/list/bounced:
+    get:
+      summary: Bounced
+      description: This api will return you the list of email addresses which are
+        currently in your block list.
+      operationId: getMailerListBounced
+      x-api-path-slug: mailerlistbounced-get
+      parameters:
+      - in: query
+        name: api_key
+        description: Your API Key
+      - in: query
+        name: username
+        description: Your user name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Mailer
+      - List
+      - Bounced
+  mailer/list/complaint:
+    get:
+      summary: Complaint
+      description: This api will return you the list of email addresses which are
+        currently in your block list.
+      operationId: getMailerListComplaint
+      x-api-path-slug: mailerlistcomplaint-get
+      parameters:
+      - in: query
+        name: api_key
+        description: Your API Key
+      - in: query
+        name: username
+        description: Your user name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Mailer
+      - List
+      - Complaint

@@ -219,6 +219,89 @@ paths:
       - List
       - ""
       - Recipients
+  /contactdb/lists/{list_id}/recipients/{recipient_id}:
+    delete:
+      summary: Delete Contactdb Lists List  Recipients Recipient
+      description: |-
+        **This endpoint allows you to delete a single recipient from a list.**
+
+        The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
+      operationId: contactdb.lists.list_id.recipients.recipient_id.delete
+      x-api-path-slug: contactdblistslist-idrecipientsrecipient-id-delete
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: query
+        name: list_id
+        description: The ID of the list you are taking this recipient away from
+      - in: query
+        name: No Name
+      - in: query
+        name: recipient_id
+        description: The ID of the recipient to take off the list
+      responses:
+        200:
+          description: OK
+      tags:
+      - Email
+      - Contactdb
+      - Lists
+      - List
+      - ""
+      - Recipients
+      - Recipient
+    post:
+      summary: Add Contactdb Lists List  Recipients Recipient
+      description: |-
+        **This endpoint allows you to add a single recipient to a list.**
+
+        The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
+      operationId: contactdb.lists.list_id.recipients.recipient_id.post
+      x-api-path-slug: contactdblistslist-idrecipientsrecipient-id-post
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Email
+      - Contactdb
+      - Lists
+      - List
+      - ""
+      - Recipients
+      - Recipient
+  /contactdb/recipients/{recipient_id}/lists:
+    get:
+      summary: Get Contactdb Recipients Recipient  Lists
+      description: |-
+        **This endpoint allows you to retrieve the lists that a given recipient belongs to.**
+
+        Each recipient can be on many lists. This endpoint gives you all of the lists that any one recipient has been added to.
+
+        The Contacts API helps you manage your [Marketing Campaigns](https://sendgrid.com/docs/User_Guide/Marketing_Campaigns/index.html) recipients.
+      operationId: contactdb.recipients.recipient_id.lists.get
+      x-api-path-slug: contactdbrecipientsrecipient-idlists-get
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Email
+      - Contactdb
+      - Recipients
+      - Recipient
+      - ""
+      - Lists
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

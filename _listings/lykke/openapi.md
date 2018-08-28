@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Lykke
 x-complete: 1
@@ -13,90 +12,59 @@ produces:
 consumes:
 - application/json
 paths:
-  /api/WatchLists:
-    get:
-      summary: Get API Watchlists
-      description: Get api watchlists.
-      operationId: ApiWatchListsGet
-      x-api-path-slug: apiwatchlists-get
-      parameters:
-      - in: header
-        name: Authorization
-        description: access token
-      responses:
-        200:
-          description: OK
-      tags:
-      - Watchlists
+  /api/Assets/description/list:
     post:
-      summary: Add API Watchlists
-      description: Add api watchlists.
-      operationId: ApiWatchListsPost
-      x-api-path-slug: apiwatchlists-post
+      summary: Add API Assets Description List
+      description: Add api assets description list.
+      operationId: ApiAssetsDescriptionListPost
+      x-api-path-slug: apiassetsdescriptionlist-post
       parameters:
-      - in: header
-        name: Authorization
-        description: access token
       - in: body
-        name: model
+        name: request
         schema:
           $ref: '#/definitions/holder'
       responses:
         200:
           description: OK
       tags:
-      - Watchlists
-  /api/WatchLists/{id}:
+      - Assets
+      - Description
+      - List
+  /api/offchain/limit/list:
     get:
-      summary: Get API Watchlists
-      description: Get api watchlists.
-      operationId: ApiWatchListsByIdGet
-      x-api-path-slug: apiwatchlistsid-get
+      summary: Get API Offchain Limit List
+      description: Get api offchain limit list.
+      operationId: ApiOffchainLimitListGet
+      x-api-path-slug: apioffchainlimitlist-get
+      parameters:
+      - in: query
+        name: assetPair
+      - in: header
+        name: Authorization
+        description: access token
+      responses:
+        200:
+          description: OK
+      tags:
+      - Offchain
+      - Limit
+      - List
+  /api/Operations/list/{status}:
+    get:
+      summary: Get API Operations List Status
+      description: Get api operations list status.
+      operationId: ApiOperationsListByStatusGet
+      x-api-path-slug: apioperationsliststatus-get
       parameters:
       - in: header
         name: Authorization
         description: access token
       - in: path
-        name: id
+        name: status
       responses:
         200:
           description: OK
       tags:
-      - Watchlists
-    put:
-      summary: Put API Watchlists
-      description: Put api watchlists.
-      operationId: ApiWatchListsByIdPut
-      x-api-path-slug: apiwatchlistsid-put
-      parameters:
-      - in: header
-        name: Authorization
-        description: access token
-      - in: path
-        name: id
-      - in: body
-        name: model
-        schema:
-          $ref: '#/definitions/holder'
-      responses:
-        200:
-          description: OK
-      tags:
-      - Watchlists
-    delete:
-      summary: Delete API Watchlists
-      description: Delete api watchlists.
-      operationId: ApiWatchListsByIdDelete
-      x-api-path-slug: apiwatchlistsid-delete
-      parameters:
-      - in: header
-        name: Authorization
-        description: access token
-      - in: path
-        name: id
-      responses:
-        200:
-          description: OK
-      tags:
-      - Watchlists
----
+      - Operations
+      - List
+      - Status

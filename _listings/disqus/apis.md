@@ -8,174 +8,136 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus
 x-kinRank: "8"
 x-alexaRank: "973"
 tags: Lists
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/disqus/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Disqus Blacklists BackfillCounters
-  x-api-slug: disqus
-  description: Blacklists BackfillCounters
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0///blacklists/backfillCounters.json
-  tags: Comments,Black Lists
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/disqus/blacklistsbackfillcounters-json-post-openapi.md
-- name: Disqus Blacklists List
-  x-api-slug: disqus
-  description: Blacklists List
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0///blacklists/list.json
-  tags: Comments,Black Lists
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/disqus/blacklistslist-json-get-openapi.md
-- name: Disqus Blacklists Remove
-  x-api-slug: disqus
-  description: Blacklists Remove
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0///blacklists/remove.json
-  tags: Comments,Black Lists
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/disqus/blacklistsremove-json-post-openapi.md
-- name: Disqus Forums ListCategories
-  x-api-slug: disqus
+- name: Disqus - Forums ListCategories
+  x-api-slug: forumslistcategories-json-get
   description: Forums ListCategories
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
   humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0///forums/listCategories.json
-  tags: Comments,Lists,Categories
+  baseURL: https://disqus.com/api/3.0/
+  tags: Comments, Social, Content, My API Stack, Stack Network, Stack, Media, internet,
+    Technology, SaaS, API Provider, Profiles, General Data, Relative Data, Pedestal,
+    Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/disqus/forumslistcategories-json-get-openapi.md
-- name: Disqus Forums ListFollowers
-  x-api-slug: disqus
+- name: Disqus - Forums ListFollowers
+  x-api-slug: forumslistfollowers-json-get
   description: Forums ListFollowers
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
   humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0///forums/listFollowers.json
-  tags: Comments,Lists
+  baseURL: https://disqus.com/api/3.0/
+  tags: Comments, Social, Content, My API Stack, Stack Network, Stack, Media, internet,
+    Technology, SaaS, API Provider, Profiles, General Data, Relative Data, Pedestal,
+    Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/disqus/forumslistfollowers-json-get-openapi.md
-- name: Disqus Forums ListModerators
-  x-api-slug: disqus
+- name: Disqus - Forums ListModerators
+  x-api-slug: forumslistmoderators-json-get
   description: Forums ListModerators
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
   humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0///forums/listModerators.json
-  tags: Comments,Lists
+  baseURL: https://disqus.com/api/3.0/
+  tags: Comments, Social, Content, My API Stack, Stack Network, Stack, Media, internet,
+    Technology, SaaS, API Provider, Profiles, General Data, Relative Data, Pedestal,
+    Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/disqus/forumslistmoderators-json-get-openapi.md
-- name: Disqus Forums ListMostActiveUsers
-  x-api-slug: disqus
+- name: Disqus - Forums ListMostActiveUsers
+  x-api-slug: forumslistmostactiveusers-json-get
   description: Forums ListMostActiveUsers
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
   humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0///forums/listMostActiveUsers.json
-  tags: Comments,Lists
+  baseURL: https://disqus.com/api/3.0/
+  tags: Comments, Social, Content, My API Stack, Stack Network, Stack, Media, internet,
+    Technology, SaaS, API Provider, Profiles, General Data, Relative Data, Pedestal,
+    Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/disqus/forumslistmostactiveusers-json-get-openapi.md
-- name: Disqus Forums ListMostLikedUsers
-  x-api-slug: disqus
+- name: Disqus - Forums ListMostLikedUsers
+  x-api-slug: forumslistmostlikedusers-json-get
   description: Forums ListMostLikedUsers
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
   humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0///forums/listMostLikedUsers.json
-  tags: Comments,Lists
+  baseURL: https://disqus.com/api/3.0/
+  tags: Comments, Social, Content, My API Stack, Stack Network, Stack, Media, internet,
+    Technology, SaaS, API Provider, Profiles, General Data, Relative Data, Pedestal,
+    Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/disqus/forumslistmostlikedusers-json-get-openapi.md
-- name: Disqus Forums ListPosts
-  x-api-slug: disqus
+- name: Disqus - Forums ListPosts
+  x-api-slug: forumslistposts-json-get
   description: Forums ListPosts
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
   humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0///forums/listPosts.json
-  tags: Comments,Lists
+  baseURL: https://disqus.com/api/3.0/
+  tags: Comments, Social, Content, My API Stack, Stack Network, Stack, Media, internet,
+    Technology, SaaS, API Provider, Profiles, General Data, Relative Data, Pedestal,
+    Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/disqus/forumslistposts-json-get-openapi.md
-- name: Disqus Forums ListThreads
-  x-api-slug: disqus
+- name: Disqus - Forums ListThreads
+  x-api-slug: forumslistthreads-json-get
   description: Forums ListThreads
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
   humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0///forums/listThreads.json
-  tags: Comments,Forums,Lists
+  baseURL: https://disqus.com/api/3.0/
+  tags: Comments, Social, Content, My API Stack, Stack Network, Stack, Media, internet,
+    Technology, SaaS, API Provider, Profiles, General Data, Relative Data, Pedestal,
+    Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/disqus/forumslistthreads-json-get-openapi.md
-- name: Disqus Forums ListUserModerationHistory
-  x-api-slug: disqus
+- name: Disqus - Forums ListUserModerationHistory
+  x-api-slug: forumslistusermoderationhistory-json-get
   description: Forums ListUserModerationHistory
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
   humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0///forums/listUserModerationHistory.json
-  tags: Comments,Forums,Lists
+  baseURL: https://disqus.com/api/3.0/
+  tags: Comments, Social, Content, My API Stack, Stack Network, Stack, Media, internet,
+    Technology, SaaS, API Provider, Profiles, General Data, Relative Data, Pedestal,
+    Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/disqus/forumslistusermoderationhistory-json-get-openapi.md
-- name: Disqus Forums ListUsers
-  x-api-slug: disqus
+- name: Disqus - Forums ListUsers
+  x-api-slug: forumslistusers-json-get
   description: Forums ListUsers
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
   humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0///forums/listUsers.json
-  tags: Comments,Forums,Lists,Users
+  baseURL: https://disqus.com/api/3.0/
+  tags: Comments, Social, Content, My API Stack, Stack Network, Stack, Media, internet,
+    Technology, SaaS, API Provider, Profiles, General Data, Relative Data, Pedestal,
+    Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/disqus/forumslistusers-json-get-openapi.md
-- name: Disqus Imports List
-  x-api-slug: disqus
+- name: Disqus - Imports List
+  x-api-slug: importslist-json-get
   description: Imports List
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
   humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0///imports/list.json
-  tags: Comments,Import,Lists
+  baseURL: https://disqus.com/api/3.0/
+  tags: Comments, Social, Content, My API Stack, Stack Network, Stack, Media, internet,
+    Technology, SaaS, API Provider, Profiles, General Data, Relative Data, Pedestal,
+    Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/disqus/importslist-json-get-openapi.md
-- name: Disqus Whitelists List
-  x-api-slug: disqus
-  description: Whitelists List
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0///whitelists/list.json
-  tags: Comments,White Lists
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/disqus/whitelistslist-json-get-openapi.md
-- name: Disqus Whitelists Remove
-  x-api-slug: disqus
-  description: Whitelists Remove
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0///whitelists/remove.json
-  tags: Comments,White Lists
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/disqus/whitelistsremove-json-post-openapi.md
-- name: Disqus
-  x-api-slug: disqus
-  description: Disqus offers the best add-on tools for websites to increase engagement.
-    We help publishers power online discussions with comments and earn revenue with
-    native advertising.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
-  humanURL: https://disqus.com/
-  baseURL: https://disqus.com/api/3.0/
-  tags: Lists
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/disqus/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://digitalocean.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://disqus.stack.network
 - type: x-base
   url: https://disqus.com/api/
 - type: x-blog

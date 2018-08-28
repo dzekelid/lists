@@ -3,256 +3,302 @@ name: Twitter
 x-slug: twitter
 description: From breaking news and entertainment to sports and politics, get the
   full story with all the live commentary.
-image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
 x-kinRank: "9"
 x-alexaRank: "12"
 tags: Lists
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Twitter List LIst
-  x-api-slug: twitter
+- name: Twitter - List LIst
+  x-api-slug: listslist-get
   description: Return all lists the authenticating or specified user subscribes to,
     including their own.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//lists/list
-  tags: Social,Lists
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/listslist-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/listslist-get-openapi.md
-- name: Twitter List Statuses
-  x-api-slug: twitter
+- name: Twitter - List Statuses
+  x-api-slug: listsstatuses-json-get
   description: Returns a timeline of tweets authored by memebers of the specified
     list
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//lists/statuses.json
-  tags: Social,Lists
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/listsstatuses-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/listsstatuses-json-get-openapi.md
-- name: Twitter Remove User From List
-  x-api-slug: twitter
+- name: Twitter - Remove User From List
+  x-api-slug: listsmembersdestroy-get
   description: Returns the list of memebers destroy
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//lists/members/destroy
-  tags: Social,Lists
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/listsmembersdestroy-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/listsmembersdestroy-get-openapi.md
-- name: Twitter Get Memberships
-  x-api-slug: twitter
+- name: Twitter - Get Memberships
+  x-api-slug: listsmemberships-get
   description: Returns the lists of the specified user has been added to
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//lists/memberships
-  tags: Social,Lists
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/listsmemberships-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/listsmemberships-get-openapi.md
-- name: Twitter List Subscribers
-  x-api-slug: twitter
+- name: Twitter - List Subscribers
+  x-api-slug: listssubscribers-get
   description: Returns the subscribers of the specified list
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//lists/subscribers
-  tags: Social,Lists
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/listssubscribers-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/listssubscribers-get-openapi.md
-- name: Twitter Add List Subscribers
-  x-api-slug: twitter
+- name: Twitter - Add List Subscribers
+  x-api-slug: listssubscriberscreate-post
   description: Subscribes the authenticated user to the specified list
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//lists/subscribers/create
-  tags: Social,Lists
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/listssubscriberscreate-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/listssubscriberscreate-post-openapi.md
-- name: Twitter Show List Subscribers
-  x-api-slug: twitter
+- name: Twitter - Show List Subscribers
+  x-api-slug: listssubscribersshow-get
   description: Check if the specified user is a subscriber of the specified list
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//lists/subscribers/show
-  tags: Social,Lists
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/listssubscribersshow-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/listssubscribersshow-get-openapi.md
-- name: Twitter Remove List Subscribers
-  x-api-slug: twitter
+- name: Twitter - Remove List Subscribers
+  x-api-slug: listssubscribersdestroy-get
   description: Returns list of subscribers destroy
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//lists/subscribers/destroy
-  tags: Social,Lists
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/listssubscribersdestroy-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
-- name: Twitter Add Users to List
-  x-api-slug: twitter
+- name: Twitter - Add Users to List
+  x-api-slug: listsmemberscreate-all-get
   description: Returns lists of members create_all
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//lists/members/create_all
-  tags: Social,Lists
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/listsmemberscreate-all-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
-- name: Twitter Show Members
-  x-api-slug: twitter
+- name: Twitter - Show Members
+  x-api-slug: listmembersshow-get
   description: Check if the specified user is a member of the specified list
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//list/members/show
-  tags: Social,Lists
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/listmembersshow-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/listmembersshow-get-openapi.md
-- name: Twitter Get Members
-  x-api-slug: twitter
+- name: Twitter - Get Members
+  x-api-slug: listmembers-get
   description: Returns the members of the specified list
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//list/members
-  tags: Social,Lists
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/listmembers-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/listmembers-get-openapi.md
-- name: Twitter Add Member
-  x-api-slug: twitter
+- name: Twitter - Add Member
+  x-api-slug: listmemberscreate-post
   description: Returns list of members create
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//list/members/create
-  tags: Social,Lists
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/listmemberscreate-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/listmemberscreate-post-openapi.md
-- name: Twitter Destroy List
-  x-api-slug: twitter
+- name: Twitter - Destroy List
+  x-api-slug: listsdestroy-post
   description: Returns list of destroy
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//lists/destroy
-  tags: Social,Lists
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/listsdestroy-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/listsdestroy-post-openapi.md
-- name: Twitter Update List
-  x-api-slug: twitter
+- name: Twitter - Update List
+  x-api-slug: listsupdate-post
   description: Returns lists of updates
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//lists/update
-  tags: Social,Lists
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/listsupdate-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/listsupdate-post-openapi.md
-- name: Twitter Create List
-  x-api-slug: twitter
+- name: Twitter - Create List
+  x-api-slug: listscreate-post
   description: Returns list of create
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//lists/create
-  tags: Social,Lists
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/listscreate-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/listscreate-post-openapi.md
-- name: Twitter Show LIsts
-  x-api-slug: twitter
+- name: Twitter - Show LIsts
+  x-api-slug: listsshow-get
   description: Returns list of show
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//lists/show
-  tags: Social,Lists
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/listsshow-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/listsshow-get-openapi.md
-- name: Twitter Show List Subscriptions
-  x-api-slug: twitter
+- name: Twitter - Show List Subscriptions
+  x-api-slug: listssubscriptions-get
   description: Returns list of subscriptions
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//lists/subscriptions
-  tags: Social,Lists
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/listssubscriptions-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/listssubscriptions-get-openapi.md
-- name: Twitter Remove Members
-  x-api-slug: twitter
+- name: Twitter - Remove Members
+  x-api-slug: listmembersdestroy-all-get
   description: Returns lists of destroy all
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//list/members/destroy_all
-  tags: Social,Lists
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/listmembersdestroy-all-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/listmembersdestroy-all-get-openapi.md
-- name: Twitter Help Terms of Services
-  x-api-slug: twitter
+- name: Twitter - Help Terms of Services
+  x-api-slug: helptos-get
   description: Returns the Twitter Terms of Service
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//help/tos
-  tags: Social,Lists
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/helptos-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/helptos-get-openapi.md
-- name: Twitter
-  x-api-slug: twitter
-  description: From breaking news and entertainment to sports and politics, get the
-    full story with all the live commentary.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
-  humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1
-  tags: Lists
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/twitter/openapi.md
 x-common:
 - type: x--net-library
   url: https://tweetinvi.codeplex.com/
@@ -260,6 +306,10 @@ x-common:
   url: https://docs.fabric.io/unity/mopub/overview.html
 - type: x-android-sdk
   url: https://docs.fabric.io/android/fabric/overview.html
+- type: x-api-gallery
+  url: http://twine.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://twitter.stack.network
 - type: x-apple-sdk
   url: https://docs.fabric.io/apple/fabric/overview.html
 - type: x-application-management

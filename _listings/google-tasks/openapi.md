@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Google Tasks
 x-complete: 1
@@ -280,4 +279,77 @@ paths:
       - Users
       - '@me'
       - Lists
----
+  /users/@me/lists/{tasklist}:
+    delete:
+      summary: Delete Users Task List
+      description: Deletes the authenticated user's specified task list.
+      operationId: tasks.tasklists.delete
+      x-api-path-slug: usersmeliststasklist-delete
+      parameters:
+      - in: path
+        name: tasklist
+        description: Task list identifier
+      responses:
+        200:
+          description: OK
+      tags:
+      - Users
+      - Task
+      - List
+    get:
+      summary: Get Users Task List
+      description: Returns the authenticated user's specified task list.
+      operationId: tasks.tasklists.get
+      x-api-path-slug: usersmeliststasklist-get
+      parameters:
+      - in: path
+        name: tasklist
+        description: Task list identifier
+      responses:
+        200:
+          description: OK
+      tags:
+      - Users
+      - Task
+      - List
+    patch:
+      summary: Patch Users Task List
+      description: Updates the authenticated user's specified task list. This method
+        supports patch semantics.
+      operationId: tasks.tasklists.patch
+      x-api-path-slug: usersmeliststasklist-patch
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: tasklist
+        description: Task list identifier
+      responses:
+        200:
+          description: OK
+      tags:
+      - Users
+      - Task
+      - List
+    put:
+      summary: Put Users Task List
+      description: Updates the authenticated user's specified task list.
+      operationId: tasks.tasklists.update
+      x-api-path-slug: usersmeliststasklist-put
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: tasklist
+        description: Task list identifier
+      responses:
+        200:
+          description: OK
+      tags:
+      - Users
+      - Task
+      - List

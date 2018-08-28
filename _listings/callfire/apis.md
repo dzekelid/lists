@@ -7,24 +7,26 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-call
 x-kinRank: "9"
 x-alexaRank: "129466"
 tags: Lists
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/callfire/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Callfire Find contact lists
-  x-api-slug: callfire
+- name: CallFire - Find contact lists
+  x-api-slug: contactslists-get
   description: Searches for all contact lists which are available for the current
     user. Returns a paged list of contact lists
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
   humanURL: http://www.callfire.com
-  baseURL: https://www.callfire.com//v2//contacts/lists
-  tags: Contacts,Lists
+  baseURL: https://www.callfire.com//v2
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/callfire/contactslists-get-openapi.md
-- name: Callfire Create contact lists
-  x-api-slug: callfire
+- name: CallFire - Create contact lists
+  x-api-slug: contactslists-post
   description: Creates a contact list for use with campaigns using 1 of 3 inputs.
     A List of Contact objects, a list of String E.164 numbers, or a list of CallFire
     contactIds can be used as the data source for the created contact list. After
@@ -37,107 +39,114 @@ apis:
     the data needs to be properly formatted and corrected before calling this API
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
   humanURL: http://www.callfire.com
-  baseURL: https://www.callfire.com//v2//contacts/lists
-  tags: Contacts,Lists
+  baseURL: https://www.callfire.com//v2
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/callfire/contactslists-post-openapi.md
-- name: Callfire Create contact list from file
-  x-api-slug: callfire
+- name: CallFire - Create contact list from file
+  x-api-slug: contactslistsupload-post
   description: Creates a contact list to be used with campaigns through uploading
     a .csv file. Returns the id of created list
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
   humanURL: http://www.callfire.com
-  baseURL: https://www.callfire.com//v2//contacts/lists/upload
-  tags: Contacts,Lists,Upload
+  baseURL: https://www.callfire.com//v2
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/callfire/contactslistsupload-post-openapi.md
-- name: Callfire Delete a contact list
-  x-api-slug: callfire
+- name: CallFire - Delete a contact list
+  x-api-slug: contactslistsid-delete
   description: Deletes a contact list, included contacts will not be deleted.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
   humanURL: http://www.callfire.com
-  baseURL: https://www.callfire.com//v2//contacts/lists/{id}
-  tags: Contacts,Lists
+  baseURL: https://www.callfire.com//v2
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/callfire/contactslistsid-delete-openapi.md
-- name: Callfire Find a specific contact list
-  x-api-slug: callfire
+- name: CallFire - Find a specific contact list
+  x-api-slug: contactslistsid-get
   description: Returns a single ContactList instance for a given contact list id
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
   humanURL: http://www.callfire.com
-  baseURL: https://www.callfire.com//v2//contacts/lists/{id}
-  tags: Contacts,Lists
+  baseURL: https://www.callfire.com//v2
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/callfire/contactslistsid-get-openapi.md
-- name: Callfire Update a contact list
-  x-api-slug: callfire
+- name: CallFire - Update a contact list
+  x-api-slug: contactslistsid-put
   description: Updates contact list instance.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
   humanURL: http://www.callfire.com
-  baseURL: https://www.callfire.com//v2//contacts/lists/{id}
-  tags: Contacts,Lists
+  baseURL: https://www.callfire.com//v2
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/callfire/contactslistsid-put-openapi.md
-- name: Callfire Delete contacts from a contact list
-  x-api-slug: callfire
+- name: CallFire - Delete contacts from a contact list
+  x-api-slug: contactslistsiditems-delete
   description: Deletes contacts from a contact list. List the contact ids in request
     to delete multiple contacts with one request.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
   humanURL: http://www.callfire.com
-  baseURL: https://www.callfire.com//v2//contacts/lists/{id}/items
-  tags: Contacts,Lists,Items
+  baseURL: https://www.callfire.com//v2
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/callfire/contactslistsiditems-delete-openapi.md
-- name: Callfire Find contacts in a contact list
-  x-api-slug: callfire
+- name: CallFire - Find contacts in a contact list
+  x-api-slug: contactslistsiditems-get
   description: Searches for all entries in a contact list with specified id. Returns
     a paged list of contact entries
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
   humanURL: http://www.callfire.com
-  baseURL: https://www.callfire.com//v2//contacts/lists/{id}/items
-  tags: Contacts,Lists,Items
+  baseURL: https://www.callfire.com//v2
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/callfire/contactslistsiditems-get-openapi.md
-- name: Callfire Add contacts to a contact list
-  x-api-slug: callfire
+- name: CallFire - Add contacts to a contact list
+  x-api-slug: contactslistsiditems-post
   description: 'Adds contacts to a contact list. Available contact sources are: list
     of the contact entities, list of ids of existing contacts in user''s account,
     list of phone numbers in E.164 format (11-digits)'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
   humanURL: http://www.callfire.com
-  baseURL: https://www.callfire.com//v2//contacts/lists/{id}/items
-  tags: Contacts,Lists,Items
+  baseURL: https://www.callfire.com//v2
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/callfire/contactslistsiditems-post-openapi.md
-- name: Callfire Delete a contact from a contact list
-  x-api-slug: callfire
+- name: CallFire - Delete a contact from a contact list
+  x-api-slug: contactslistsiditemscontactid-delete
   description: Deletes a single contact from a contact list
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
   humanURL: http://www.callfire.com
-  baseURL: https://www.callfire.com//v2//contacts/lists/{id}/items/{contactId}
-  tags: Contacts,Lists,Items,ContactId
+  baseURL: https://www.callfire.com//v2
+  tags: SMS, Voice, Stack Network, Getting Started Example, Telecommunications, Technology,
+    SaaS, API Provider, Telecommunications, Messages, Profiles, Service API, Relative
+    Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/callfire/contactslistsiditemscontactid-delete-openapi.md
-- name: Callfire
-  x-api-slug: callfire
-  description: Grow your business with virtual phone numbers, IVR, voice broadcasting,
-    mass text messaging services and power dialing. Try CallFire for FREE!
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
-  humanURL: http://www.callfire.com
-  baseURL: https://www.callfire.com//v2
-  tags: Lists
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/callfire/openapi.md
 x-common:
 - type: x--net-sdk
   url: https://github.com/CallFire/CallFire-CSharp-SDK
@@ -145,6 +154,10 @@ x-common:
   url: https://answers.callfire.com/hc/en-us/sections/200166268-Billing
 - type: x-account-settings
   url: https://answers.callfire.com/hc/en-us/sections/200187056-Account-Settings
+- type: x-api-gallery
+  url: http://bureau.of.justice.statistics.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://callfire.stack.network
 - type: x-authentication
   url: https://www.callfire.com/api-documentation/how-do-i-enable-api-on-my-account
 - type: x-blog

@@ -1,78 +1,63 @@
 ---
 name: Viddler
 x-slug: viddler
-description: www.viddler.com
+description: Viddler is an online sales training platform with integrated tools for
+  practice and evaluation. The Viddler service offers video-based instruction and
+  optional coaching, and allows customers to engage with course content through guided
+  assignments and self-recorded practice sessions.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/274-viddler.jpg
 x-kinRank: "8"
 x-alexaRank: "81111"
 tags: Lists
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/viddler/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Viddler  API Playlists Create
-  x-api-slug: viddler--api
-  description: Create a playlist. Regular playlist represents user defined videos.
-    Smart playlist updates in realtime returning videos matching selected filtering
-    rules.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/274-viddler.jpg
-  humanURL: http://www.viddler.com/
-  baseURL: https://api.viddler.com//api/v2/viddler.playlists.create
-  tags: Viddler,Playlists,Create
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/viddler/viddler-playlists-create-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/viddler/viddler-playlists-create-post-openapi.md
-- name: Viddler  API Playlists Delete
-  x-api-slug: viddler--api
-  description: 'Delete a playlist.u00a0Caution: This operation cannot be undone.'
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/274-viddler.jpg
-  humanURL: http://www.viddler.com/
-  baseURL: https://api.viddler.com//api/v2/viddler.playlists.delete
-  tags: Viddler,Playlists,Delete
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/viddler/viddler-playlists-delete-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/viddler/viddler-playlists-delete-post-openapi.md
-- name: Viddler  API Playlists List
-  x-api-slug: viddler--api
+- name: Viddler  API - Playlists List
+  x-api-slug: viddler-playlists-list-get
   description: List all playlists for an account.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/274-viddler.jpg
   humanURL: http://www.viddler.com/
-  baseURL: https://api.viddler.com//api/v2/viddler.playlists.list
-  tags: Viddler,Playlists,List
+  baseURL: https://api.viddler.com//api/v2
+  tags: Videos, SaaS, Technology, Enterprise, internet, Sales, Trainings, Relative
+    Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/viddler/viddler-playlists-list-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/viddler/viddler-playlists-list-get-openapi.md
-- name: Viddler  API Playlists MoveVideo
-  x-api-slug: viddler--api
-  description: Reorder videos in regular playlist.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/274-viddler.jpg
-  humanURL: http://www.viddler.com/
-  baseURL: https://api.viddler.com//api/v2/viddler.playlists.moveVideo
-  tags: Viddler,Playlists,MoveVideo
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/viddler/viddler-playlists-movevideo-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/viddler/viddler-playlists-movevideo-get-openapi.md
-- name: Viddler  API
-  x-api-slug: viddler--api
-  description: The Viddler API exposes Viddler&rsquo;s key features to those that
-    would like to build custom solutionson topof Viddler&rsquo;s video platform.
+- name: Viddler  API - Playlists List
+  x-api-slug: viddler-playlists-list-get
+  description: List all playlists for an account.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/274-viddler.jpg
   humanURL: http://www.viddler.com/
   baseURL: https://api.viddler.com//api/v2
-  tags: Lists
+  tags: Videos, SaaS, Technology, Enterprise, internet, Sales, Trainings, Relative
+    Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/viddler/viddler-playlists-list-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/viddler/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/viddler/viddler-playlists-list-get-openapi.md
+- name: Viddler  API - Playlists List
+  x-api-slug: viddler-playlists-list-get
+  description: List all playlists for an account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/274-viddler.jpg
+  humanURL: http://www.viddler.com/
+  baseURL: https://api.viddler.com//api/v2
+  tags: Videos, SaaS, Technology, Enterprise, internet, Sales, Trainings, Relative
+    Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/viddler/viddler-playlists-list-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/lists/master/_listings/viddler/viddler-playlists-list-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://victorops.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://viddler.stack.network
 - type: x-base
   url: http://api.viddler.com/api/
 - type: x-blog
